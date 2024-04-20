@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-1 {
+  position: relative;
+}
+
+.bg-1 {
+  background: rgb(255,156,156);
+  background: linear-gradient(0deg, rgba(255,156,156,1) 0%, rgba(255,208,156,1) 32%, rgba(214,230,255,1) 100%);
+}
+
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 2; /* Ensures it stays on top of other content */
+}
+
+.hidden {
+  opacity: 0; /* Transition to invisible */
+  transition: opacity 0.3s ease-out;
+}
+
+.text-box {
+  padding: 20px;
+  background-color: aliceblue;
+}
+
+.tree {
+width: 180%;
+position: absolute;
+bottom: 0;
+}
+
+
